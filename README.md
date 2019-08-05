@@ -40,7 +40,7 @@ kicks['duration'] = round((pd.to_datetime(kicks['deadline_m']).dt.date       pd.
 	
 #### Exploratory Data Analysis (EDA)
 ##### 1st graph
-	Our goal is focusing on the successful rate of the project. In state column, we only look at successful and fail data, and ignore the rest (suspended, undefined, canceled, live)
+Our goal is focusing on the successful rate of the project. In state column, we only look at successful and fail data, and ignore the rest (suspended, undefined, canceled, live)
 kicks['state'].value_counts().plot(kind="pie")
 As you can see, the number of failed projects takes most of the pie chart than successful rate. 
 
@@ -56,26 +56,28 @@ plt.ylabel('Successful rate') #label y values as successful rate
 plt.xticks(np.arange(0,100,10)) #set range for x values 
 plt.legend(loc='upper left') #set legend for the dataset on the upper left of the graph
 plt.show()
-🡺The duration between 30 – 40 days has the highest successful rate based on the number of projects 🡺 We will invest in the projects if the project’s duration is between 30-40 days. 
+The duration between 30 – 40 days has the highest successful rate based on the number of projects 🡺 We will invest in the projects if the project’s duration is between 30-40 days. 
 
 
 
 
 
 ##### 3rd graph 
-	We would like to compare the successful rate of each main category, which would help us narrow down the potential fields that has the highest probability of successful rate that being launched in each month.
-    • Theater and dance category have the highest successful rate compared to the rest of them. The data suggest we should invest into Theater  and Dance where the launched months are around from March to July. 
-    • If we are interested in Food category, we must stay alert and avoid investing into any project that launched in July. 
+We would like to compare the successful rate of each main category, which would help us narrow down the potential fields that has the highest probability of successful rate that being launched in each month.
+
+Theater and dance category have the highest successful rate compared to the rest of them. The data suggest we should invest into Theater  and Dance where the launched months are around from March to July. 
+If we are interested in Food category, we must stay alert and avoid investing into any project that launched in July. 
 
 Line Graph version of 3rd graph: 
 
 
 ##### 4th graph
 We would like to compare the successful rate of each main category, which would help us to have insights about social trends towards the projects from 2009 to 2017. 
-Analyzing the past trends is one of the most important parts. This data helps us to forecast the performance of each category in the future and decide which factors are the most important in defining success for a project.  
-    • We can easily observe the trendline of each category. Publishing, Film &Video, Music, Food, Crafts, Fashion, Art, Photography, Technology, Dance and Journalism have significant deceased trendlines, meanwhile Product Design, Tabletop Games, Theater and Comics have steadily increased trendlines in recent years. 
-    • We will choose the top 3 categories having positive trendlines for further analysis and it will be shown in the 5th graph below.
+Analyzing the past trends is one of the most important parts. This data helps us to forecast the performance of each category in the future and decide which factors are the most important in defining success for a project.
+
+We can easily observe the trendline of each category. Publishing, Film &Video, Music, Food, Crafts, Fashion, Art, Photography, Technology, Dance and Journalism have significant deceased trendlines, meanwhile Product Design, Tabletop Games, Theater and Comics have steadily increased trendlines in recent years. 
+We will choose the top 3 categories having positive trendlines for further analysis and it will be shown in the 5th graph below.
     
     
 ##### 5th graph
-	We will zoom into the top 3 categories with highest successful rate compared in different months. We can see the successful rate of Product Design, Tabletop Games and Theater reach its peak, respectively in October, August and June. This data would help us which category and what time of the year that we should invest into. 
+We will zoom into the top 3 categories with highest successful rate compared in different months. We can see the successful rate of Product Design, Tabletop Games and Theater reach its peak, respectively in October, August and June. This data would help us which category and what time of the year that we should invest into. 
