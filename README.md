@@ -81,3 +81,28 @@ We will choose the top 3 categories having positive trendlines for further analy
     
 ##### 5th graph
 We will zoom into the top 3 categories with highest successful rate compared in different months. We can see the successful rate of Product Design, Tabletop Games and Theater reach its peak, respectively in October, August and June. This data would help us which category and what time of the year that we should invest into. 
+
+
+##### Charts from Google Data Studio
+![](https://i.imgur.com/Bz8MYym.png)
+<p align="center">
+<i>
+  Overview dashboard
+</i>
+</p>
+
+
+![](https://i.imgur.com/VfkZ7j8.png)
+<p align="center">
+<i>
+  EDA by countries
+</i>
+</p>
+
+
+![](https://i.imgur.com/GgcTceH.png)
+<p align="center">
+<i>
+  EDA by categories
+</i>
+</p>
