@@ -1,4 +1,4 @@
-# Week 3 - Analyze Kickstarter
+# Analyze Kickstarter
 ![](https://i.imgur.com/RTFJQVt.jpg)
 https://datastudio.google.com/reporting/1GkxC8-xmfhHOnpA58fR_165q7FF3z0PU/page/IIcw
 
